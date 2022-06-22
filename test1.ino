@@ -2,7 +2,6 @@
 #define echoPin 3
 
 #define Buzzer1 11 //active
-//#define Buzzer2 7//passive
 #define Led1 6//Vibration
 
  
@@ -29,8 +28,6 @@ void loop() {
   digitalWrite(trigPin, LOW);
   duration = pulseIn(echoPin, HIGH);
   distance = (duration/2) / 29.1;
- // tone(11,5);
-  //digitalWrite(Buzzer2, LOW);
   Serial.println(distance);
   digitalWrite(Led1, LOW);
   delay(100);  
@@ -55,6 +52,5 @@ void loop() {
   }
   delay(1000);
    
-    //digitalWrite(Buzzer2, HIGH);
-    //delay(2000);
+ 
   }
