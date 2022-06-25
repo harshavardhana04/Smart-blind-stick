@@ -22,18 +22,14 @@ void loop() {
    
   if(distance<50 and distance>25){
     tone(Buzzer,200,300);
-    delay(200);
   }
   if(distance<25 and distance>10){
     tone(Buzzer,500,300);
-    delay(200);
   }
   if(distance<10){
     tone(Buzzer,1000,200);
-    delay(100);
   }
   else{
     tone(Buzzer,2000,300);
-    delay(1000);
   }
 }
