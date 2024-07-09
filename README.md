@@ -1,5 +1,5 @@
 #intro-git
 
-This repository is a dumping place for our project files and also a way for us to learn github.
+This is a basic Smart Blind stick that uses an Ultrasonic sensor to check obstacles and warn the user through a Bluetooth connected app.
 
-thank you
+Details are in the PPT
